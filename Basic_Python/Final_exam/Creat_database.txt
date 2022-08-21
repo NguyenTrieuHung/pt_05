@@ -1,0 +1,54 @@
+DROP DATABASE IF EXISTS Final_exam;
+CREATE DATABASE Final_exam;
+USE Final_exam;
+
+DROP TABLE IF EXISTS hocvien;
+CREATE TABLE hocvien(
+Student_ID  INT PRIMARY KEY ,
+`name` VARCHAR(50) NOT NULL,
+DoB DATEtime NOT NULL,
+Sex varchar(10) NOT NULL,
+Address VARCHAR(100) NOT NULL,
+Mobile VARCHAR(20) ,
+Email VARCHAR(100) NOT NULL
+);
+INSERT INTO hocvien(Student_ID, `name`, DoB, Sex, Address, Mobile, Email)
+VALUES               
+(11, 'Sinh vien A' , 15/09/1995, 'nam', 'ha noi', '018999999', 'sva@gmail.com' ),
+(12, 'Sinh vien B' , 16/08/1998, 'nu', 'hcm', '018999888', 'svb@gmail.com' ),
+(13, 'Sinh vien C' , 20/10/1997, 'nu', 'hai phong', '018977777', 'svc@gmail.com' );
+
+
+DROP TABLE IF EXISTS monhoc;
+CREATE TABLE monhoc(
+Subject_ID  INT PRIMARY KEY,
+Subject_Name VARCHAR(100) NOT NULL
+);
+INSERT INTO monhoc(Subject_ID, Subject_Name)
+VALUES               
+(1, 'mon hoc 1'),
+(2, 'mon hoc 2'),
+(3, 'mon hoc 3'),
+(4, 'mon hoc 4');
+
+
+DROP TABLE IF EXISTS diemthi;
+CREATE TABLE diemthi(
+Student_ID  INT Not Null,
+Subject_ID  INT NOT NULL,
+Midel_Score INT NOT NULL,
+Final_Score INT NOT NULL
+);
+
+INSERT INTO diemthi(Student_ID, Subject_ID, Midel_Score, Final_Score)
+VALUES               
+(11, 1 , 8, 9 ),
+(11, 2 , 7, 8),
+(11, 3, 8, 9),
+(12, 1 , 6, 7 ),
+(12, 2 , 5, 8),
+(12, 3, 9, 9),
+(13, 1 , 7, 7 ),
+(13, 2 , 3, 8),
+(13, 4, 5, 9);
+

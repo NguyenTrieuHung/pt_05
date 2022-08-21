@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+
+
+    </head>
+    <body>
+        <h1>Register</h1>
+        <p><i>Please <b>fill in this from</b> to creat an account</i></p>
+        
+        <form action="/action_page.php">
+            <p>Full name:<sup>*</sup><br></p>
+            <input type="text" name ="fname" autocomplete="off"><br><br>
+            Use name:<sup>*</sup><br>
+            <input type="text" name="uname" autocomplete="off"><br><br>
+            Password:<sup>*</sup><br>
+            <input type="password" name="password"><br><br>
+            Email:<sup>*</sup><br>
+            <input type="email" name="email"><br><br>
+            Telephone number:<sup>*</sup><br>
+            <input type="number" name="phone"><br><br>
+            Input Object:<br>
+            <input type="radio" name="gender" value="Student" checked>Student
+            <input type="radio" name="gender" value="Teacher"> Teacher<br><br>
+            Favorite:<br>
+            <input type="radio" name="favorite" value="Badminton">Badminton
+            <input type="radio" name="favorite" value="Volleyball">Volleyball
+            <input type="radio" name="favorite" value="Football">Football
+            <br><br>
+            Address:<sup>*</sup><br>
+            <input list="Address" name="Address" value="Bắc Giang">
+            <datalist id="Address">
+                <option value="Hà Nội"></option>
+                <option value="Sài Gòn"></option>
+                <option value="Đà Nẵng"></option>
+            </datalist>
+            <br><br>
+            Birthday:<sup>*</sup><br>
+            <input type="date" name="bday">
+            <br><br>
+            Your picture:<sup>*</sup><br>
+            <input type="file" name="file" id="file">
+            <br><br>
+            <button type="from">Đăng Ký</button>
+        </form>
+        
+    </body>
+</html>

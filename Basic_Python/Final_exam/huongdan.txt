@@ -1,0 +1,38 @@
+3 file  quanlyhocvien.py
+        quanlymonhoc.py
+        quanlydiemthi.py
+chua class la:     class hocvien và class Quanlyhocvien
+                   class monhoc và class Quanlymonhoc
+                   class diemthi và class Quanlydiemthi
+file main.py chua code giao dien nguoi dung
+----------- CHUONG TRINH QUAN LY THONG TIN HOC VIEN -------------
+            0. Thoat chuong trinh
+            1. Man hinh quan ly thong tin hoc vien
+            2. Man hinh quan ly thong tin mon hoc
+            3. Man hinh quan ly thong tin dien thi
+
+----------- QUAN LY HOC VIEN -------------
+                0. Thoat chuong trinh
+                1. Hien thi danh sach hoc vien
+                2. Tim kiem hoc vien theo ten
+                3. Them hoc vien
+                4. Sua thong tin hoc vien theo ID
+                5. Xoa hoc vien
+                6. Xuat danh sach hoc vien ra file(.txt)
+                ''')
+
+----------- QUAN LY MON HOC -------------
+                0. Thoat chuong trinh
+                1. Hien thi danh sach mon hoc
+                2. Them mon hoc
+                3. Xoa mon hoc
+                4. Tim mon hoc
+                5. Sua mon hoc
+                
+----------- QUAN LY DIEM THI -------------
+                0. Thoat chuong trinh
+                1. Hien thi danh sach hoc vien va diem thi
+                2. Them diem thi 
+                3. Tim kiem diem thi theo ID
+                4. Xoa diem thi
+                5. Sua diem thi

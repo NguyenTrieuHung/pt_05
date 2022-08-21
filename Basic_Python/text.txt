@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+['ID: 0 Name: 0 Dob: 0 Address: 0 Mobile: 0 Email: 0']
+=======
+['ID: 1 Name: 1 Dob: 1 Address: 1 Mobile: 11 Email: 1', 'ID: 2 Name: 2 Dob: 2 Address: 2 Mobile: 2 Email: 2']
+>>>>>>> 56fc1a1725762f770df2eaf8368a499f761fdd17
