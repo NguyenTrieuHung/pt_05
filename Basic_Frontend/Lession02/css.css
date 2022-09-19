@@ -1,0 +1,15 @@
+h1,p {color: rgb(231, 10, 10);
+    margin: 70px;
+    padding: 20px; 
+    border: 1px solid;
+}
+
+h2 {
+    border: solid 1px;
+    margin: 20px;
+    padding: 10px;
+}
+table {
+    border:1px solid rgb(0, 0, 0);
+    
+}
